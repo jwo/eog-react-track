@@ -1,10 +1,19 @@
 {
-  "track_id": "{{TRACK_ID}}",
-  "language": "{{LANGUAGE}}",
-  "active": false,
-  "blurb": "",
-  "ignore_pattern": "[Ee]xample",
-  "solution_pattern": "[Ee]xample",
-  "test_pattern": "[Tt]est",
-  "exercises": null
+  "track_id": "eog-react",
+  "language": "JavaScript",
+  "active": true,
+  "blurb": "Such wow, very Java",
+  "test_pattern": ".*[.]test[.]js$",
+  "exercises": [
+    {
+      "slug": "functional-transform",
+      "uuid": "5a57e6e7-cb69-4669-8d8e-704772012b54",
+      "core": true,
+      "unlocked_by": null,
+      "topics": [
+        "loops",
+        "transforming"
+      ]
+    }
+  ]
 }
